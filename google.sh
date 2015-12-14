@@ -20,23 +20,23 @@ if [[ "$#" -ge 1 ]]; then
 		# Checks to see if search query contains common top level domain extensions
 		if [[ $QUERY == *".com"* ]]; then
 			echo ".com"
-			start http://www.$QUERY
+			start http://$QUERY
 			exit
 		elif [[ $QUERY == *".org"* ]]; then
 			echo ".org"
-			start http://www.$QUERY
+			start http://$QUERY
 			exit
 		elif [[ $QUERY == *".net"* ]]; then
 			echo ".net"
-			start http://www.$QUERY
+			start http://$QUERY
 			exit
 		elif [[ $QUERY == *".gov"* ]]; then
 			echo ".gov"
-			start http://www.$QUERY
+			start http://$QUERY
 			exit
 		elif [[ $QUERY == *".edu"* ]]; then
 			echo ".edu"
-			start http://www.$QUERY
+			start http://$QUERY
 			exit
 		else
 			echo "Search Query"

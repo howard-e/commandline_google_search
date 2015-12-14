@@ -21,7 +21,7 @@ if not %QUERY:.gov=% == %QUERY% (goto url) else (goto edu)
 if not %QUERY:.edu=% == %QUERY% (goto url) else (goto loop)
 
 :url
-start http://www.%QUERY%
+start http://%QUERY%
 exit
 
 :loop
