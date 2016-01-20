@@ -1,6 +1,6 @@
 @Author Howard Edwards
 
-Made a simple Batch File and an equivalent Bash "Shell" Script.
+A simple Batch File and equivalent Bash "Shell" Script.
 These are used to perform a web search using Google's search engine from the command line using Windows.
 
 A user can provide some search query or a webpage's address for their search
